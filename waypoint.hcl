@@ -3,7 +3,7 @@ project = "helloworld-go"
 app "helloworld-go" {
     build {
         use "pack" {
-            builder="paketobuildpacks/builder:base"
+            builder="gcr.io/buildpacks/builder:v1"
         }
     }
     deploy {
